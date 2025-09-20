@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
-from devices.routes import router
+from routes import router
 
 app = FastAPI(title="Devices Service", version="1.0.0")
 
